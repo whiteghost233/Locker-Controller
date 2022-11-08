@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Locker-Controller.iml" filepath="$PROJECT_DIR$/.idea/Locker-Controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/demo.iml" filepath="$PROJECT_DIR$/client/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/register/register.iml" filepath="$PROJECT_DIR$/register/register.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webmanagement/webmanage.iml" filepath="$PROJECT_DIR$/webmanagement/webmanage.iml" />
+    </modules>
+  </component>
+</project>

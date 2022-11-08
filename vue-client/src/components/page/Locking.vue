@@ -149,14 +149,14 @@ export default {
             //     console.log(this.client[key]['component'])
             // }
             //saveStatus()
-            if(from.name=='park')
+            if(from.name=='locker')
             {
                 var nowid=this.id
                 this.client[nowid]['data']=JSON.parse(JSON.stringify(this.data))
                 this.client[nowid]['component']=JSON.parse(JSON.stringify(this.component))
                 this.saveStatus(nowid,false)
             }
-            if(to.name=='park')
+            if(to.name=='locker')
             {
                 this.id=to.params.id
                 var id=this.id

@@ -34,7 +34,7 @@
                 <el-table-column prop="name" label="储物柜名称"></el-table-column>
                 <el-table-column prop="address" label="地址"></el-table-column>
                 <el-table-column prop="currSize" label="当前负载"></el-table-column>
-                <el-table-column prop="remainSize" label="剩余车位"></el-table-column>
+                <el-table-column prop="remainSize" label="剩余储物柜"></el-table-column>
                 
                 <el-table-column prop="remainSize" label="已使用">
                     <template slot-scope="scope">

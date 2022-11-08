@@ -7,7 +7,7 @@ export default new Router({
     routes: [
         {
             path: '/',
-            redirect: '/parklist'
+            redirect: '/lockerlist'
         },
         {
             path: '/',
@@ -25,14 +25,14 @@ export default new Router({
                 //     meta: { title: '基础表格' }
                 // },
                 {
-                    path: '/parklist',
-                    component: () => import(/* webpackChunkName: "table" */ '../components/page/ParkList.vue'),
+                    path: '/lockerlist',
+                    component: () => import(/* webpackChunkName: "table" */ '../components/page/LockerList.vue'),
                     meta: { title: '设备列表' }
                 },
                 {
-                    path: '/park/:id',
+                    path: '/locker/:id',
                     name:'park',
-                    component: () => import(/* webpackChunkName: "table" */ '../components/page/Parking.vue'),
+                    component: () => import(/* webpackChunkName: "table" */ '../components/page/Locking.vue'),
                     meta: { title: '设备管理' }
                 },
                 // {

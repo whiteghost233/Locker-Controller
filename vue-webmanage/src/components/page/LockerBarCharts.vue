@@ -82,7 +82,7 @@ export default {
                 labels: [],
                 datasets: [
                     {
-                        label: '入库车总量',
+                        label: '使用储物柜总量',
                         //fillColor: 'rgba(241, 49, 74, 0.5)',
                         data: []
                     },

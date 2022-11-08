@@ -72,11 +72,11 @@ export default {
                     title: '系统历史状态',
                     subs: [
                         {
-                            index: 'parkbarcharts',
+                            index: 'lockerbarcharts',
                             title: '储物柜历史记录'
                         },
                         {
-                            index: 'parklinecharts',
+                            index: 'lockerlinecharts',
                             title: '储物柜流量统计'
                         },
                         {

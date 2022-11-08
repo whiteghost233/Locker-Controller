@@ -27,14 +27,14 @@ export default new Router({
                 
                 {
                     // vue-schart组件
-                    path: '/parkbarcharts',
-                    component: () => import(/* webpackChunkName: "chart" */ '../components/page/ParkBarCharts.vue'),
+                    path: '/lockerbarcharts',
+                    component: () => import(/* webpackChunkName: "chart" */ '../components/page/LockerBarCharts.vue'),
                     meta: { title: '储物柜历史记录' }
                 },
                 {
                     // vue-schart组件
-                    path: '/parklinecharts',
-                    component: () => import(/* webpackChunkName: "chart" */ '../components/page/ParkLineCharts.vue'),
+                    path: '/lockerlinecharts',
+                    component: () => import(/* webpackChunkName: "chart" */ '../components/page/LockerLineCharts.vue'),
                     meta: { title: '储物柜流量统计' }
                 },
                 {

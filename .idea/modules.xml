@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/client/demo.iml" filepath="$PROJECT_DIR$/client/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/register/register.iml" filepath="$PROJECT_DIR$/register/register.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server2/server (1).iml" filepath="$PROJECT_DIR$/server2/server (1).iml" />
       <module fileurl="file://$PROJECT_DIR$/webmanagement/webmanage.iml" filepath="$PROJECT_DIR$/webmanagement/webmanage.iml" />
     </modules>
   </component>

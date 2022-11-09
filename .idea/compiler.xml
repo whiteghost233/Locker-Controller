@@ -10,6 +10,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="server" />
         <module name="webmanage" />
+        <module name="server (1)" />
         <module name="demo" />
         <module name="register" />
       </profile>
@@ -18,6 +19,7 @@
       <module name="demo" target="11" />
       <module name="register" target="11" />
       <module name="server" target="11" />
+      <module name="server (1)" target="11" />
       <module name="webmanage" target="11" />
     </bytecodeTargetLevel>
   </component>
@@ -26,6 +28,7 @@
       <module name="demo" options="-parameters" />
       <module name="register" options="-parameters" />
       <module name="server" options="-parameters" />
+      <module name="server (1)" options="-parameters" />
       <module name="webmanage" options="-parameters" />
     </option>
   </component>

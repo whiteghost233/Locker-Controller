@@ -31,7 +31,7 @@ export default new Router({
                 },
                 {
                     path: '/locker/:id',
-                    name:'park',
+                    name:'locker',
                     component: () => import(/* webpackChunkName: "table" */ '../components/page/Locking.vue'),
                     meta: { title: '设备管理' }
                 },

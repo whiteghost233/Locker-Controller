@@ -233,7 +233,7 @@ export default {
             this.editVisible = true;
         },
         handleStart(index) {
-          this.$router.push({name: 'park', params: {id: index}})
+          this.$router.push({name: 'locker', params: {id: index}})
         },
         handleAdd() {
          //   this.idx = index;
